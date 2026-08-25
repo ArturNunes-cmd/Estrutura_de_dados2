@@ -306,11 +306,11 @@ while atual:
 
 Ao depurar, pergunte:
 
-1. Qual variável está incorreta?
-2. Qual é o valor dela?
-3. Qual objeto ela referencia?
-4. Essa referência deveria mudar?
-5. Qual condição encerra o `while`?
+1. Qual variável está incorreta? A variável de controle de loop 
+2. Qual é o valor dela? O que ela armazena 
+3. Qual objeto ela referencia? Para onde o ponteiro aponta 
+4. Essa referência deveria mudar? Acho que não
+5. Qual condição encerra o `while`? A variável chega ao controle None 
 
 ## 15. Exercício 1 — Referências
 
@@ -330,10 +330,10 @@ print("id(b):", id(b))
 
 Responda:
 
-1. Qual será a saída?
-2. `a` e `b` representam o mesmo objeto?
-3. Por quê?
-4. O que aconteceria com `b = a.copy()`?
+1. Qual será a saída? A saída será a 10,20,30,40 nos dois primeiros e no restante vai ser um número 140123456789 mesmo sendo id diferentes.
+2. `a` e `b` representam o mesmo objeto? Sim.
+3. Por quê? Porque b passa a ser apenas outra referência mas objeto continua sendo o mesmo. 
+4. O que aconteceria com `b = a.copy()`? Seria uma lista independente. 
 
 ## 16. Exercício 2 — Construindo uma cadeia
 
