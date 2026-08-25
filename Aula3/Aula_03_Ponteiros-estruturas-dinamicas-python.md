@@ -585,36 +585,31 @@ Checklist:
 ### O que é uma referência em Python?
 
 ```text
-____________________________________________________
-____________________________________________________
+Uma referência é uma forma de uma variável apontar para um objeto que está armazenado na memória.
 ```
 
 ### Qual a diferença entre `b = a` e `b = a.copy()`?
 
 ```text
-____________________________________________________
-____________________________________________________
+O primeiro faz referência ao mesmo objeto. Já o segundo cria uma cópia do do objeto.
 ```
 
 ### Por que uma estrutura encadeada precisa de referências?
 
 ```text
-____________________________________________________
-____________________________________________________
+Porque cada nó precisa saber onde está o próximo nó.
 ```
 
 ### Qual erro você encontrou durante a depuração?
 
 ```text
-____________________________________________________
-____________________________________________________
+?
 ```
 
 ### Como referências ajudam a compreender estruturas dinâmicas?
 
 ```text
-____________________________________________________
-____________________________________________________
+As referências permitem criar estruturas que podem crescer e diminuir durante a execução do programa, sem precisar definir previamente seu tamanho.
 ```
 
 ## 28. Síntese da aula
