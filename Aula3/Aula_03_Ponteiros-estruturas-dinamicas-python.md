@@ -379,10 +379,10 @@ while atual is not None:
 
 Perguntas:
 
-1. Qual é o problema?
-2. Por que o programa não termina?
-3. Qual linha deve ser acrescentada?
-4. Qual será a saída depois da correção?
+1. Qual é o problema? O laço verifica atual is not None, mas atual continua apontando para n1 indefinidamente.
+2. Por que o programa não termina? Porque atual permanece igual a n1. Assim, a condição atual is not None sempre será verdadeira e 10 será impresso repetidamente.
+3. Qual linha deve ser acrescentada? Dentro do while, depois do print
+4. Qual será a saída depois da correção? 10 20 30
 
 ## 18. Problema real — Sistema de atendimento de uma clínica
 
